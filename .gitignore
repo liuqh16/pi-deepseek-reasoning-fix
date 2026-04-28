@@ -1,0 +1,4 @@
+.pi/
+.rumdl_cache/
+node_modules/
+*.tgz

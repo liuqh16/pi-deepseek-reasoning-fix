@@ -1,0 +1,26 @@
+{
+	"name": "pi-deepseek-reasoning-fix",
+	"version": "0.1.0",
+	"description": "Pi package that fixes the DeepSeek reasoning_content requirement when switching models in old sessions.",
+	"type": "module",
+	"license": "MIT",
+	"keywords": [
+		"pi-package",
+		"pi-extension",
+		"pi",
+		"deepseek",
+		"reasoning"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/liuqh16/pi-deepseek-reasoning-fix.git"
+	},
+	"peerDependencies": {
+		"@mariozechner/pi-coding-agent": "*"
+	},
+	"pi": {
+		"extensions": [
+			"./extensions/*.ts"
+		]
+	}
+}
